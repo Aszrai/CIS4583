@@ -1,0 +1,63 @@
+﻿@model CIS4583.Model.Customer
+
+@{
+    ViewData["Title"] = "Create Customer";
+}
+
+<h1>Create Customer</h1>
+
+<form asp-action="Create" method="post">
+    @Html.AntiForgeryToken()
+
+    <div class="form-group">
+        <label for="FirstName">First Name</label>
+        <input type="text" id="FirstName" name="FirstName" class="form-control" value="@Model.FirstName" />
+        <span asp-validation-for="FirstName" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <label for="MiddleName">Middle Name</label>
+        <input type="text" id="MiddleName" name="MiddleName" class="form-control" value="@Model.MiddleName" />
+        <span asp-validation-for="MiddleName" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <label for="LastName">Last Name</label>
+        <input type="text" id="LastName" name="LastName" class="form-control" value="@Model.LastName" />
+        <span asp-validation-for="LastName" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <label for="Street">Street</label>
+        <input type="text" id="Street" name="Street" class="form-control" value="@Model.Street" />
+        <span asp-validation-for="Street" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <label for="City">City</label>
+        <input type="text" id="City" name="City" class="form-control" value="@Model.City" />
+        <span asp-validation-for="City" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <label for="State">State</label>
+        <input type="text" id="State" name="State" class="form-control" value="@Model.State" />
+        <span asp-validation-for="State" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <label for="Zip">Zip</label>
+        <input type="text" id="Zip" name="Zip" class="form-control" value="@Model.Zip" />
+        <span asp-validation-for="Zip" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <input type="submit" value="Submit" class="btn btn-primary" />
+    </div>
+</form>
+
+<a href="@Url.Action("Index", "Customer")" class="btn btn-secondary">Back to List</a>
+
+@section Scripts {
+    <partial name="_ValidationScriptsPartial" />
+}

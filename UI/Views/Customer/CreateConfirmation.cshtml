@@ -1,0 +1,16 @@
+﻿@model CIS4583.Model.Customer
+
+@{
+    ViewData["Title"] = "Create Confirmation";
+}
+
+<h1>Customer Created Successfully</h1>
+
+<div class="alert alert-success">
+    <p>The customer <strong>@Model.FirstName @Model.LastName</strong> has been created successfully.</p>
+</div>
+
+<div class="form-group">
+    <a href="@Url.Action("Index", "Customer")" class="btn btn-primary">Back to List</a>
+    <a href="@Url.Action("Create", "Customer")" class="btn btn-secondary">Create Another Customer</a>
+</div>

@@ -1,0 +1,49 @@
+﻿@model CIS4583.Model.Customer
+
+@{
+    ViewData["Title"] = "Delete Customer";
+}
+
+<h1>Delete Customer</h1>
+
+<h4>Are you sure you want to permanently delete this customer?</h4>
+<hr />
+
+<div class="row">
+    <div class="col-md-6">
+        <!-- Confirmation form that posts to DeleteConfirmed -->
+        <form asp-action="DeleteConfirmed" method="post">
+            @Html.AntiForgeryToken()
+
+            <div class="form-group">
+                <label><strong>First Name:</strong> @Model.FirstName</label>
+            </div>
+            <div class="form-group">
+                <label><strong>Middle Name:</strong> @Model.MiddleName</label>
+            </div>
+            <div class="form-group">
+                <label><strong>Last Name:</strong> @Model.LastName</label>
+            </div>
+            <div class="form-group">
+                <label><strong>Street:</strong> @Model.Street</label>
+            </div>
+            <div class="form-group">
+                <label><strong>City:</strong> @Model.City</label>
+            </div>
+            <div class="form-group">
+                <label><strong>State:</strong> @Model.State</label>
+            </div>
+            <div class="form-group">
+                <label><strong>Zip:</strong> @Model.Zip</label>
+            </div>
+
+          
+            <input type="hidden" name="id" value="@Model.CustomerId" />
+
+            <div class="form-group">
+                <input type="submit" value="Delete" class="btn btn-danger" />
+                <a asp-action="Index" class="btn btn-secondary">Cancel</a>
+            </div>
+        </form>
+    </div>
+</div>

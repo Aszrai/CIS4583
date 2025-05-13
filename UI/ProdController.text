@@ -1,0 +1,183 @@
+﻿
+
+        private readonly ILogger<ProdController> _logger;
+        private IProductRepository _ProductService;
+        private ICategoriesRepository _CategoriesService;
+        private ISupplierRepository _SupplierService;
+        public ProdController(
+            ILogger<ProdController> logger,       IProductRepository ProductService, ICategoriesRepository CategoriesService, ISupplierRepository SupplierService)
+        {
+            _logger = logger;
+            _ProductService = ProductService;
+            _CategoriesService = CategoriesService;
+            _SupplierService = SupplierService;
+        }
+        public ActionResult Index()
+        {
+            List<Product> model = _ProductService.Product_SelectList();
+            return View(model);
+        }
+
+        // GET: CategoryController/Details/5
+        public ActionResult Details(int? id)
+        {
+            if (id == null)
+            {
+                return NotFound();
+            }
+            Product model = _ProductService.Product_Select(new Product { productID = id });
+            if (model == null)
+            {
+                return NotFound();
+            }
+            return View(model);
+        }
+        // GET: CategoryController/Create
+        public ActionResult Create()
+        {
+
+            var model = new Product();
+            model.CategorList = _CategoriesService.Categories_SelectList();
+            model.SupplierList = _SupplierService.Supplier_SelectList();
+            return View(model);
+        }
+
+        // POST: CategoryController/Create
+        [HttpPost]
+        [ValidateAntiForgeryToken]
+        public ActionResult Create(Product model)
+        {
+            try
+            {
+                if (ModelState.IsValid)
+                {
+                    if (model == null)
+                    {
+                        return View(model);
+                    }
+                  
+                    if (_ProductService.Product_Insert(model))
+                    {
+                        return RedirectToAction("Index");
+                    }
+                }
+                model.CategorList = _CategoriesService.Categories_SelectList();
+                model.SupplierList = _SupplierService.Supplier_SelectList();
+                return View(model);
+            }
+            catch
+            {
+                model.CategorList = _CategoriesService.Categories_SelectList();
+                model.SupplierList = _SupplierService.Supplier_SelectList();
+                return View(model);
+            }
+
+        }
+
+        // GET: CategoryController/Edit/5
+        public ActionResult Edit(int? id)
+        {
+            if (id == null)
+            {
+                return NotFound();
+            }
+            Product model = _ProductService.Product_Select(new Product { productID = id });
+
+            if (model == null)
+            {
+                return NotFound();
+            }
+            model.CategorList = _CategoriesService.Categories_SelectList();
+            model.SupplierList = _SupplierService.Supplier_SelectList();
+            return View(model);
+        }
+
+        // POST: CategoryController/Edit/5
+        [HttpPost]
+        [ValidateAntiForgeryToken]
+        public ActionResult Edit(int id, Product model)
+        {
+            try
+            {
+                if (ModelState.IsValid)
+                {
+                    Product Model = _ProductService.Product_Select(new Product { productID = id });
+                    if (Model == null)
+                    {
+                        return NotFound();
+                    }
+                    if (_ProductService.Product_Update(model))
+                    {
+                        return RedirectToAction("Index");
+                    }
+                    else
+                    {
+                        model.CategorList = _CategoriesService.Categories_SelectList();
+                        model.SupplierList = _SupplierService.Supplier_SelectList();
+                        return View(model);
+                    }
+                }
+                model.CategorList = _CategoriesService.Categories_SelectList();
+                model.SupplierList = _SupplierService.Supplier_SelectList();
+                return View(model);
+            }
+            catch
+            {
+                model.CategorList = _CategoriesService.Categories_SelectList();
+                model.SupplierList = _SupplierService.Supplier_SelectList();
+                return View(model);
+            }
+        }
+
+        // GET: CategoryController/Delete/5
+        public ActionResult Delete(int? id)
+        {
+            if (id == null)
+            {
+                return NotFound();
+            }
+            Product model = _ProductService.Product_Select(new Product { productID = id });
+            if (model == null)
+            {
+                return NotFound();
+            }
+            return View(model);
+        }
+
+
+        // POST: CategoryController/Delete/5
+        [HttpPost]
+        [ValidateAntiForgeryToken]
+        public ActionResult Delete(int? id, Product model)
+        {
+
+            try
+            {
+                if (id == null)
+                {
+                    return NotFound();
+                }
+                Product Model = _ProductService.Product_Select(new Product { productID = id });
+                if (Model == null)
+                {
+                    return NotFound();
+                }
+                if (_ProductService.Product_Delete(model))
+                {
+                    return RedirectToAction("Index");
+                }
+                else
+                {
+                    return View(model);
+                }
+
+
+            }
+            catch
+            {
+                return View(model);
+            }
+        }
+
+
+

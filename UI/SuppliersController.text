@@ -1,0 +1,165 @@
+﻿
+
+        private readonly ILogger<SuppliersController> _logger;
+        private ISupplierRepository _SupplierService;
+        public SuppliersController(ILogger<SuppliersController> logger, ISupplierRepository SupplierService)
+        {
+            _logger = logger;
+            _SupplierService = SupplierService;
+        }
+        public ActionResult Index()
+        {
+            List<Supplier> model = _SupplierService.Supplier_SelectList();
+            return View(model);
+        }
+
+        // GET: CategoryController/Details/5
+        public ActionResult Details(int? id)
+        {
+            if (id == null)
+            {
+                return NotFound();
+            }
+            Supplier model = _SupplierService.Supplier_Select(new Supplier { supplierID = id });
+            if (model == null)
+            {
+                return NotFound();
+            }
+            return View(model);
+        }
+        // GET: CategoryController/Create
+        public ActionResult Create()
+        {
+            return View(new Supplier());
+        }
+
+        // POST: CategoryController/Create
+        [HttpPost]
+        [ValidateAntiForgeryToken]
+        public ActionResult Create(Supplier model)
+        {
+            try
+            {
+                if (ModelState.IsValid)
+                {
+                    if (model == null)
+                    {
+                        return View(model);
+                    }
+                    if (_SupplierService.Supplier_Insert(model))
+                    {
+                        return RedirectToAction("Index");
+                    }
+                }
+                return View(model);
+            }
+            catch
+            {
+                return View(model);
+            }
+
+        }
+
+        // GET: CategoryController/Edit/5
+        public ActionResult Edit(int? id)
+        {
+            if (id == null)
+            {
+                return NotFound();
+            }
+            Supplier model = _SupplierService.Supplier_Select(new Supplier { supplierID = id });
+            if (model == null)
+            {
+                return NotFound();
+            }
+            return View(model);
+        }
+
+        // POST: CategoryController/Edit/5
+        [HttpPost]
+        [ValidateAntiForgeryToken]
+        public ActionResult Edit(int id, Supplier model)
+        {
+            try
+            {
+                if (ModelState.IsValid)
+                {
+                    Supplier Model = _SupplierService.Supplier_Select(new Supplier { supplierID = id });
+                    if (Model == null)
+                    {
+                        return NotFound();
+                    }
+                    if (_SupplierService.Supplier_Update(model))
+                    {
+                        return RedirectToAction("Index");
+                    }
+                    else
+                    {
+                        return View(model);
+                    }
+                }
+                return View(model);
+            }
+            catch
+            {
+                return View(model);
+            }
+        }
+
+        // GET: CategoryController/Delete/5
+        public ActionResult Delete(int? id)
+        {
+            if (id == null)
+            {
+                return NotFound();
+            }
+            Supplier model = _SupplierService.Supplier_Select(new Supplier { supplierID = id });
+            if (model == null)
+            {
+                return NotFound();
+            }
+            return View(model);
+        }
+
+
+        // POST: CategoryController/Delete/5
+        [HttpPost]
+        [ValidateAntiForgeryToken]
+        public ActionResult Delete(int? id, Supplier model)
+        {
+
+            try
+            {
+                if (id == null)
+                {
+                    return NotFound();
+                }
+                Supplier Model = _SupplierService.Supplier_Select(new Supplier { supplierID = id });
+                if (Model == null)
+                {
+                    return NotFound();
+                }
+                if (_SupplierService.Supplier_Delete(model))
+                {
+                    return RedirectToAction("Index");
+                }
+                else
+                {
+                    return View(model);
+                }
+
+
+            }
+            catch
+            {
+                return View(model);
+            }
+        }
+
+
+
+
+
+
+
+

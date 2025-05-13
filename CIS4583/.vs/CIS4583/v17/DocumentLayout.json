@@ -1,0 +1,740 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\aridl\\Downloads\\CIS4583\\CIS4583\\CIS4583\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{FF8F8D99-0C9C-4223-891A-801F0A26D70F}|..\\UI\\UI.csproj|c:\\users\\aridl\\downloads\\cis4583\\cis4583\\ui\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6288A0C7-597F-4D03-BAE6-1A8FEE5A2AB9}|CIS4583.csproj|c:\\users\\aridl\\downloads\\cis4583\\cis4583\\cis4583\\repository\\customerrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6288A0C7-597F-4D03-BAE6-1A8FEE5A2AB9}|CIS4583.csproj|solutionrelative:repository\\customerrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6288A0C7-597F-4D03-BAE6-1A8FEE5A2AB9}|CIS4583.csproj|c:\\users\\aridl\\downloads\\cis4583\\cis4583\\cis4583\\irepository\\icategoriesrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6288A0C7-597F-4D03-BAE6-1A8FEE5A2AB9}|CIS4583.csproj|solutionrelative:irepository\\icategoriesrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6288A0C7-597F-4D03-BAE6-1A8FEE5A2AB9}|CIS4583.csproj|c:\\users\\aridl\\downloads\\cis4583\\cis4583\\cis4583\\irepository\\icustomerrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6288A0C7-597F-4D03-BAE6-1A8FEE5A2AB9}|CIS4583.csproj|solutionrelative:irepository\\icustomerrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FF8F8D99-0C9C-4223-891A-801F0A26D70F}|..\\UI\\UI.csproj|c:\\users\\aridl\\downloads\\cis4583\\cis4583\\ui\\models\\customer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6288A0C7-597F-4D03-BAE6-1A8FEE5A2AB9}|CIS4583.csproj|c:\\users\\aridl\\downloads\\cis4583\\cis4583\\cis4583\\model\\supplier.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6288A0C7-597F-4D03-BAE6-1A8FEE5A2AB9}|CIS4583.csproj|solutionrelative:model\\supplier.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6288A0C7-597F-4D03-BAE6-1A8FEE5A2AB9}|CIS4583.csproj|c:\\users\\aridl\\downloads\\cis4583\\cis4583\\cis4583\\repository\\productrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6288A0C7-597F-4D03-BAE6-1A8FEE5A2AB9}|CIS4583.csproj|solutionrelative:repository\\productrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6288A0C7-597F-4D03-BAE6-1A8FEE5A2AB9}|CIS4583.csproj|c:\\users\\aridl\\downloads\\cis4583\\cis4583\\cis4583\\irepository\\isupplierrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6288A0C7-597F-4D03-BAE6-1A8FEE5A2AB9}|CIS4583.csproj|solutionrelative:irepository\\isupplierrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6288A0C7-597F-4D03-BAE6-1A8FEE5A2AB9}|CIS4583.csproj|c:\\users\\aridl\\downloads\\cis4583\\cis4583\\cis4583\\model\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6288A0C7-597F-4D03-BAE6-1A8FEE5A2AB9}|CIS4583.csproj|solutionrelative:model\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6288A0C7-597F-4D03-BAE6-1A8FEE5A2AB9}|CIS4583.csproj|c:\\users\\aridl\\downloads\\cis4583\\cis4583\\cis4583\\irepository\\iproductrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6288A0C7-597F-4D03-BAE6-1A8FEE5A2AB9}|CIS4583.csproj|solutionrelative:irepository\\iproductrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6288A0C7-597F-4D03-BAE6-1A8FEE5A2AB9}|CIS4583.csproj|c:\\users\\aridl\\downloads\\cis4583\\cis4583\\cis4583\\model\\customer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6288A0C7-597F-4D03-BAE6-1A8FEE5A2AB9}|CIS4583.csproj|solutionrelative:model\\customer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FF8F8D99-0C9C-4223-891A-801F0A26D70F}|..\\UI\\UI.csproj|c:\\users\\aridl\\downloads\\cis4583\\cis4583\\ui\\controllers\\customercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FF8F8D99-0C9C-4223-891A-801F0A26D70F}|..\\UI\\UI.csproj|c:\\users\\aridl\\downloads\\cis4583\\cis4583\\ui\\controllers\\categorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FF8F8D99-0C9C-4223-891A-801F0A26D70F}|..\\UI\\UI.csproj|c:\\users\\aridl\\downloads\\cis4583\\cis4583\\ui\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FF8F8D99-0C9C-4223-891A-801F0A26D70F}|..\\UI\\UI.csproj|c:\\users\\aridl\\downloads\\cis4583\\cis4583\\ui\\ui.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6288A0C7-597F-4D03-BAE6-1A8FEE5A2AB9}|CIS4583.csproj|c:\\users\\aridl\\downloads\\cis4583\\cis4583\\cis4583\\model\\categories.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6288A0C7-597F-4D03-BAE6-1A8FEE5A2AB9}|CIS4583.csproj|solutionrelative:model\\categories.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6288A0C7-597F-4D03-BAE6-1A8FEE5A2AB9}|CIS4583.csproj|c:\\users\\aridl\\downloads\\cis4583\\cis4583\\cis4583\\repository\\suppliersrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6288A0C7-597F-4D03-BAE6-1A8FEE5A2AB9}|CIS4583.csproj|solutionrelative:repository\\suppliersrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6288A0C7-597F-4D03-BAE6-1A8FEE5A2AB9}|CIS4583.csproj|c:\\users\\aridl\\downloads\\cis4583\\cis4583\\cis4583\\repository\\categoriesrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6288A0C7-597F-4D03-BAE6-1A8FEE5A2AB9}|CIS4583.csproj|solutionrelative:repository\\categoriesrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6288A0C7-597F-4D03-BAE6-1A8FEE5A2AB9}|CIS4583.csproj|c:\\users\\aridl\\downloads\\cis4583\\cis4583\\cis4583\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6288A0C7-597F-4D03-BAE6-1A8FEE5A2AB9}|CIS4583.csproj|solutionrelative:data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\aridl\\OneDrive\\Desktop\\CIS4583\\UI\\Views\\Customer\\CreateConfirmation.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\aridl\\OneDrive\\Desktop\\CIS4583\\UI\\UI.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\aridl\\OneDrive\\Desktop\\CIS4583\\UI\\Views\\Category\\Index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\aridl\\OneDrive\\Desktop\\CIS4583\\UI\\Views\\Category\\Details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\aridl\\OneDrive\\Desktop\\CIS4583\\UI\\Views\\Category\\Edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\aridl\\OneDrive\\Desktop\\CIS4583\\UI\\Views\\Shared\\_Layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\aridl\\OneDrive\\Desktop\\CIS4583\\UI\\ProdController.text||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\aridl\\OneDrive\\Desktop\\CIS4583\\UI\\Views\\Customer\\Create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\aridl\\OneDrive\\Desktop\\CIS4583\\UI\\Views\\Customer\\Details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\aridl\\OneDrive\\Desktop\\CIS4583\\UI\\Views\\Customer\\Delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\aridl\\OneDrive\\Desktop\\CIS4583\\UI\\Views\\Customer\\Edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\aridl\\OneDrive\\Desktop\\CIS4583\\UI\\Views\\Category\\Delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\aridl\\OneDrive\\Desktop\\CIS4583\\UI\\Views\\Home\\Privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\aridl\\OneDrive\\Desktop\\CIS4583\\UI\\Views\\Home\\Index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\aridl\\OneDrive\\Desktop\\CIS4583\\UI\\Views\\_ViewStart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\aridl\\OneDrive\\Desktop\\CIS4583\\UI\\Views\\_ViewImports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\aridl\\OneDrive\\Desktop\\CIS4583\\UI\\Views\\Category\\Create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\aridl\\OneDrive\\Desktop\\CIS4583\\UI\\Views\\Customer\\Index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\aridl\\OneDrive\\Desktop\\CIS4583\\UI\\Controllers\\CustomerController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\aridl\\OneDrive\\Desktop\\CIS4583\\UI\\Controllers\\ProdController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\aridl\\OneDrive\\Desktop\\CIS4583\\UI\\Controllers\\HomeController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\aridl\\OneDrive\\Desktop\\CIS4583\\UI\\Controllers\\CategoryController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\aridl\\OneDrive\\Desktop\\CIS4583\\UI\\Program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\aridl\\OneDrive\\Desktop\\CIS4583\\UI\\Models\\ErrorViewModel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\aridl\\OneDrive\\Desktop\\CIS4583\\UI\\Models\\Customer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\aridl\\OneDrive\\Desktop\\CIS4583\\UI\\Controllers\\SupplController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\aridl\\OneDrive\\Desktop\\CIS4583\\UI\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 191,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 8,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{40ea2e6b-2121-4bb8-a43e-c83c04b51041}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "CategoryController.cs",
+              "DocumentMoniker": "C:\\Users\\aridl\\Downloads\\CIS4583\\CIS4583\\UI\\Controllers\\CategoryController.cs",
+              "RelativeDocumentMoniker": "..\\UI\\Controllers\\CategoryController.cs",
+              "ToolTip": "C:\\Users\\aridl\\Downloads\\CIS4583\\CIS4583\\UI\\Controllers\\CategoryController.cs",
+              "RelativeToolTip": "..\\UI\\Controllers\\CategoryController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-05T21:22:57.224Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Customer.cs",
+              "DocumentMoniker": "C:\\Users\\aridl\\Downloads\\CIS4583\\CIS4583\\UI\\Models\\Customer.cs",
+              "RelativeDocumentMoniker": "..\\UI\\Models\\Customer.cs",
+              "ToolTip": "C:\\Users\\aridl\\Downloads\\CIS4583\\CIS4583\\UI\\Models\\Customer.cs",
+              "RelativeToolTip": "..\\UI\\Models\\Customer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-05T21:22:55.266Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "CustomerController.cs",
+              "DocumentMoniker": "C:\\Users\\aridl\\Downloads\\CIS4583\\CIS4583\\UI\\Controllers\\CustomerController.cs",
+              "RelativeDocumentMoniker": "..\\UI\\Controllers\\CustomerController.cs",
+              "ToolTip": "C:\\Users\\aridl\\Downloads\\CIS4583\\CIS4583\\UI\\Controllers\\CustomerController.cs",
+              "RelativeToolTip": "..\\UI\\Controllers\\CustomerController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-05T21:22:06.891Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "UI.csproj",
+              "DocumentMoniker": "C:\\Users\\aridl\\Downloads\\CIS4583\\CIS4583\\UI\\UI.csproj",
+              "RelativeDocumentMoniker": "..\\UI\\UI.csproj",
+              "ToolTip": "C:\\Users\\aridl\\Downloads\\CIS4583\\CIS4583\\UI\\UI.csproj",
+              "RelativeToolTip": "..\\UI\\UI.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-05-05T21:10:17.728Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\aridl\\Downloads\\CIS4583\\CIS4583\\UI\\Program.cs",
+              "RelativeDocumentMoniker": "..\\UI\\Program.cs",
+              "ToolTip": "C:\\Users\\aridl\\Downloads\\CIS4583\\CIS4583\\UI\\Program.cs",
+              "RelativeToolTip": "..\\UI\\Program.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-05T20:52:48.974Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\aridl\\Downloads\\CIS4583\\CIS4583\\UI\\appsettings.json",
+              "RelativeDocumentMoniker": "..\\UI\\appsettings.json",
+              "ToolTip": "C:\\Users\\aridl\\Downloads\\CIS4583\\CIS4583\\UI\\appsettings.json",
+              "RelativeToolTip": "..\\UI\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-05-05T20:50:36.504Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "SuppliersRepository.cs",
+              "DocumentMoniker": "C:\\Users\\aridl\\Downloads\\CIS4583\\CIS4583\\CIS4583\\Repository\\SuppliersRepository.cs",
+              "RelativeDocumentMoniker": "Repository\\SuppliersRepository.cs",
+              "ToolTip": "C:\\Users\\aridl\\Downloads\\CIS4583\\CIS4583\\CIS4583\\Repository\\SuppliersRepository.cs",
+              "RelativeToolTip": "Repository\\SuppliersRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-05T20:10:12.063Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "CreateConfirmation.cshtml",
+              "DocumentMoniker": "C:\\Users\\aridl\\OneDrive\\Desktop\\CIS4583\\UI\\Views\\Customer\\CreateConfirmation.cshtml",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\OneDrive\\Desktop\\CIS4583\\UI\\Views\\Customer\\CreateConfirmation.cshtml",
+              "ToolTip": "C:\\Users\\aridl\\OneDrive\\Desktop\\CIS4583\\UI\\Views\\Customer\\CreateConfirmation.cshtml",
+              "RelativeToolTip": "..\\..\\..\\..\\OneDrive\\Desktop\\CIS4583\\UI\\Views\\Customer\\CreateConfirmation.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-05T19:01:16.275Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "UI.csproj",
+              "DocumentMoniker": "C:\\Users\\aridl\\OneDrive\\Desktop\\CIS4583\\UI\\UI.csproj",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\OneDrive\\Desktop\\CIS4583\\UI\\UI.csproj",
+              "ToolTip": "C:\\Users\\aridl\\OneDrive\\Desktop\\CIS4583\\UI\\UI.csproj",
+              "RelativeToolTip": "..\\..\\..\\..\\OneDrive\\Desktop\\CIS4583\\UI\\UI.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-05-01T22:53:09.881Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\aridl\\OneDrive\\Desktop\\CIS4583\\UI\\Views\\Category\\Index.cshtml",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\OneDrive\\Desktop\\CIS4583\\UI\\Views\\Category\\Index.cshtml",
+              "ToolTip": "C:\\Users\\aridl\\OneDrive\\Desktop\\CIS4583\\UI\\Views\\Category\\Index.cshtml",
+              "RelativeToolTip": "..\\..\\..\\..\\OneDrive\\Desktop\\CIS4583\\UI\\Views\\Category\\Index.cshtml",
+              "ViewState": "AgIAABIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-01T22:20:12.689Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "C:\\Users\\aridl\\OneDrive\\Desktop\\CIS4583\\UI\\Views\\Category\\Details.cshtml",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\OneDrive\\Desktop\\CIS4583\\UI\\Views\\Category\\Details.cshtml",
+              "ToolTip": "C:\\Users\\aridl\\OneDrive\\Desktop\\CIS4583\\UI\\Views\\Category\\Details.cshtml",
+              "RelativeToolTip": "..\\..\\..\\..\\OneDrive\\Desktop\\CIS4583\\UI\\Views\\Category\\Details.cshtml",
+              "ViewState": "AgIAABIAAAAAAAAAAAAAACIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-01T22:20:08.927Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "AppDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\aridl\\Downloads\\CIS4583\\CIS4583\\CIS4583\\Data\\AppDbContext.cs",
+              "RelativeDocumentMoniker": "Data\\AppDbContext.cs",
+              "ToolTip": "C:\\Users\\aridl\\Downloads\\CIS4583\\CIS4583\\CIS4583\\Data\\AppDbContext.cs",
+              "RelativeToolTip": "Data\\AppDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-01T21:41:05.222Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\aridl\\OneDrive\\Desktop\\CIS4583\\UI\\Views\\Category\\Edit.cshtml",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\OneDrive\\Desktop\\CIS4583\\UI\\Views\\Category\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\aridl\\OneDrive\\Desktop\\CIS4583\\UI\\Views\\Category\\Edit.cshtml",
+              "RelativeToolTip": "..\\..\\..\\..\\OneDrive\\Desktop\\CIS4583\\UI\\Views\\Category\\Edit.cshtml",
+              "ViewState": "AgIAABIAAAAAAAAAAAAAACQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-01T05:26:00.738Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\aridl\\OneDrive\\Desktop\\CIS4583\\UI\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\OneDrive\\Desktop\\CIS4583\\UI\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\aridl\\OneDrive\\Desktop\\CIS4583\\UI\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "..\\..\\..\\..\\OneDrive\\Desktop\\CIS4583\\UI\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAAADQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-30T04:19:50.459Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "ProdController.text",
+              "DocumentMoniker": "C:\\Users\\aridl\\OneDrive\\Desktop\\CIS4583\\UI\\ProdController.text",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\OneDrive\\Desktop\\CIS4583\\UI\\ProdController.text",
+              "ToolTip": "C:\\Users\\aridl\\OneDrive\\Desktop\\CIS4583\\UI\\ProdController.text",
+              "RelativeToolTip": "..\\..\\..\\..\\OneDrive\\Desktop\\CIS4583\\UI\\ProdController.text",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-04-30T04:15:56.045Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\aridl\\OneDrive\\Desktop\\CIS4583\\UI\\Views\\Customer\\Create.cshtml",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\OneDrive\\Desktop\\CIS4583\\UI\\Views\\Customer\\Create.cshtml",
+              "ToolTip": "C:\\Users\\aridl\\OneDrive\\Desktop\\CIS4583\\UI\\Views\\Customer\\Create.cshtml",
+              "RelativeToolTip": "..\\..\\..\\..\\OneDrive\\Desktop\\CIS4583\\UI\\Views\\Customer\\Create.cshtml",
+              "ViewState": "AgIAAC0AAAAAAAAAAAAAABYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-29T22:12:54.355Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "C:\\Users\\aridl\\OneDrive\\Desktop\\CIS4583\\UI\\Views\\Customer\\Details.cshtml",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\OneDrive\\Desktop\\CIS4583\\UI\\Views\\Customer\\Details.cshtml",
+              "ToolTip": "C:\\Users\\aridl\\OneDrive\\Desktop\\CIS4583\\UI\\Views\\Customer\\Details.cshtml",
+              "RelativeToolTip": "..\\..\\..\\..\\OneDrive\\Desktop\\CIS4583\\UI\\Views\\Customer\\Details.cshtml",
+              "ViewState": "AgIAABUAAAAAAAAAAAAAACQAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-29T22:09:00.18Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "C:\\Users\\aridl\\OneDrive\\Desktop\\CIS4583\\UI\\Views\\Customer\\Delete.cshtml",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\OneDrive\\Desktop\\CIS4583\\UI\\Views\\Customer\\Delete.cshtml",
+              "ToolTip": "C:\\Users\\aridl\\OneDrive\\Desktop\\CIS4583\\UI\\Views\\Customer\\Delete.cshtml",
+              "RelativeToolTip": "..\\..\\..\\..\\OneDrive\\Desktop\\CIS4583\\UI\\Views\\Customer\\Delete.cshtml",
+              "ViewState": "AgIAABsAAAAAAAAAAAAqwCcAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-29T22:06:49.369Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\aridl\\OneDrive\\Desktop\\CIS4583\\UI\\Views\\Customer\\Edit.cshtml",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\OneDrive\\Desktop\\CIS4583\\UI\\Views\\Customer\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\aridl\\OneDrive\\Desktop\\CIS4583\\UI\\Views\\Customer\\Edit.cshtml",
+              "RelativeToolTip": "..\\..\\..\\..\\OneDrive\\Desktop\\CIS4583\\UI\\Views\\Customer\\Edit.cshtml",
+              "ViewState": "AgIAACcAAAAAAAAAAAAqwEEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-29T22:05:58.561Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "C:\\Users\\aridl\\OneDrive\\Desktop\\CIS4583\\UI\\Views\\Category\\Delete.cshtml",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\OneDrive\\Desktop\\CIS4583\\UI\\Views\\Category\\Delete.cshtml",
+              "ToolTip": "C:\\Users\\aridl\\OneDrive\\Desktop\\CIS4583\\UI\\Views\\Category\\Delete.cshtml",
+              "RelativeToolTip": "..\\..\\..\\..\\OneDrive\\Desktop\\CIS4583\\UI\\Views\\Category\\Delete.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-29T22:03:43.266Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "Privacy.cshtml",
+              "DocumentMoniker": "C:\\Users\\aridl\\OneDrive\\Desktop\\CIS4583\\UI\\Views\\Home\\Privacy.cshtml",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\OneDrive\\Desktop\\CIS4583\\UI\\Views\\Home\\Privacy.cshtml",
+              "ToolTip": "C:\\Users\\aridl\\OneDrive\\Desktop\\CIS4583\\UI\\Views\\Home\\Privacy.cshtml",
+              "RelativeToolTip": "..\\..\\..\\..\\OneDrive\\Desktop\\CIS4583\\UI\\Views\\Home\\Privacy.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-29T22:03:41.74Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\aridl\\OneDrive\\Desktop\\CIS4583\\UI\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\OneDrive\\Desktop\\CIS4583\\UI\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\aridl\\OneDrive\\Desktop\\CIS4583\\UI\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "..\\..\\..\\..\\OneDrive\\Desktop\\CIS4583\\UI\\Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-29T22:03:37.669Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "_ViewStart.cshtml",
+              "DocumentMoniker": "C:\\Users\\aridl\\OneDrive\\Desktop\\CIS4583\\UI\\Views\\_ViewStart.cshtml",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\OneDrive\\Desktop\\CIS4583\\UI\\Views\\_ViewStart.cshtml",
+              "ToolTip": "C:\\Users\\aridl\\OneDrive\\Desktop\\CIS4583\\UI\\Views\\_ViewStart.cshtml",
+              "RelativeToolTip": "..\\..\\..\\..\\OneDrive\\Desktop\\CIS4583\\UI\\Views\\_ViewStart.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-29T22:03:35.465Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "_ViewImports.cshtml",
+              "DocumentMoniker": "C:\\Users\\aridl\\OneDrive\\Desktop\\CIS4583\\UI\\Views\\_ViewImports.cshtml",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\OneDrive\\Desktop\\CIS4583\\UI\\Views\\_ViewImports.cshtml",
+              "ToolTip": "C:\\Users\\aridl\\OneDrive\\Desktop\\CIS4583\\UI\\Views\\_ViewImports.cshtml",
+              "RelativeToolTip": "..\\..\\..\\..\\OneDrive\\Desktop\\CIS4583\\UI\\Views\\_ViewImports.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-29T22:03:33.212Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\aridl\\OneDrive\\Desktop\\CIS4583\\UI\\Views\\Category\\Create.cshtml",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\OneDrive\\Desktop\\CIS4583\\UI\\Views\\Category\\Create.cshtml",
+              "ToolTip": "C:\\Users\\aridl\\OneDrive\\Desktop\\CIS4583\\UI\\Views\\Category\\Create.cshtml",
+              "RelativeToolTip": "..\\..\\..\\..\\OneDrive\\Desktop\\CIS4583\\UI\\Views\\Category\\Create.cshtml",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABgAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-29T22:03:28.066Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\aridl\\OneDrive\\Desktop\\CIS4583\\UI\\Views\\Customer\\Index.cshtml",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\OneDrive\\Desktop\\CIS4583\\UI\\Views\\Customer\\Index.cshtml",
+              "ToolTip": "C:\\Users\\aridl\\OneDrive\\Desktop\\CIS4583\\UI\\Views\\Customer\\Index.cshtml",
+              "RelativeToolTip": "..\\..\\..\\..\\OneDrive\\Desktop\\CIS4583\\UI\\Views\\Customer\\Index.cshtml",
+              "ViewState": "AgIAACQAAAAAAAAAAAAqwCIAAABwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-29T22:03:24.736Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "CustomerController.cs",
+              "DocumentMoniker": "C:\\Users\\aridl\\OneDrive\\Desktop\\CIS4583\\UI\\Controllers\\CustomerController.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\OneDrive\\Desktop\\CIS4583\\UI\\Controllers\\CustomerController.cs",
+              "ToolTip": "C:\\Users\\aridl\\OneDrive\\Desktop\\CIS4583\\UI\\Controllers\\CustomerController.cs",
+              "RelativeToolTip": "..\\..\\..\\..\\OneDrive\\Desktop\\CIS4583\\UI\\Controllers\\CustomerController.cs",
+              "ViewState": "AgIAAFQAAAAAAAAAAAAqwHAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-29T21:52:27.641Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "ProdController.cs",
+              "DocumentMoniker": "C:\\Users\\aridl\\OneDrive\\Desktop\\CIS4583\\UI\\Controllers\\ProdController.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\OneDrive\\Desktop\\CIS4583\\UI\\Controllers\\ProdController.cs",
+              "ToolTip": "C:\\Users\\aridl\\OneDrive\\Desktop\\CIS4583\\UI\\Controllers\\ProdController.cs",
+              "RelativeToolTip": "..\\..\\..\\..\\OneDrive\\Desktop\\CIS4583\\UI\\Controllers\\ProdController.cs",
+              "ViewState": "AgIAAC8AAAAAAAAAAAAqwEsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-29T21:51:35.126Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\aridl\\OneDrive\\Desktop\\CIS4583\\UI\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\OneDrive\\Desktop\\CIS4583\\UI\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\aridl\\OneDrive\\Desktop\\CIS4583\\UI\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "..\\..\\..\\..\\OneDrive\\Desktop\\CIS4583\\UI\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-29T21:51:33.601Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "CustomerRepository.cs",
+              "DocumentMoniker": "C:\\Users\\aridl\\Downloads\\CIS4583\\CIS4583\\CIS4583\\Repository\\CustomerRepository.cs",
+              "RelativeDocumentMoniker": "Repository\\CustomerRepository.cs",
+              "ToolTip": "C:\\Users\\aridl\\Downloads\\CIS4583\\CIS4583\\CIS4583\\Repository\\CustomerRepository.cs",
+              "RelativeToolTip": "Repository\\CustomerRepository.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAADwvzgAAACfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-29T21:50:27.398Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ProductRepository.cs",
+              "DocumentMoniker": "C:\\Users\\aridl\\Downloads\\CIS4583\\CIS4583\\CIS4583\\Repository\\ProductRepository.cs",
+              "RelativeDocumentMoniker": "Repository\\ProductRepository.cs",
+              "ToolTip": "C:\\Users\\aridl\\Downloads\\CIS4583\\CIS4583\\CIS4583\\Repository\\ProductRepository.cs",
+              "RelativeToolTip": "Repository\\ProductRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-29T21:50:06.37Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "CategoriesRepository.cs",
+              "DocumentMoniker": "C:\\Users\\aridl\\Downloads\\CIS4583\\CIS4583\\CIS4583\\Repository\\CategoriesRepository.cs",
+              "RelativeDocumentMoniker": "Repository\\CategoriesRepository.cs",
+              "ToolTip": "C:\\Users\\aridl\\Downloads\\CIS4583\\CIS4583\\CIS4583\\Repository\\CategoriesRepository.cs",
+              "RelativeToolTip": "Repository\\CategoriesRepository.cs",
+              "ViewState": "AgIAAIcAAAAAAAAAAAAkwJQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-29T21:50:03.437Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Customer.cs",
+              "DocumentMoniker": "C:\\Users\\aridl\\Downloads\\CIS4583\\CIS4583\\CIS4583\\Model\\Customer.cs",
+              "RelativeDocumentMoniker": "Model\\Customer.cs",
+              "ToolTip": "C:\\Users\\aridl\\Downloads\\CIS4583\\CIS4583\\CIS4583\\Model\\Customer.cs",
+              "RelativeToolTip": "Model\\Customer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-29T21:44:27.863Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Supplier.cs",
+              "DocumentMoniker": "C:\\Users\\aridl\\Downloads\\CIS4583\\CIS4583\\CIS4583\\Model\\Supplier.cs",
+              "RelativeDocumentMoniker": "Model\\Supplier.cs",
+              "ToolTip": "C:\\Users\\aridl\\Downloads\\CIS4583\\CIS4583\\CIS4583\\Model\\Supplier.cs",
+              "RelativeToolTip": "Model\\Supplier.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-29T21:44:23.106Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Product.cs",
+              "DocumentMoniker": "C:\\Users\\aridl\\Downloads\\CIS4583\\CIS4583\\CIS4583\\Model\\Product.cs",
+              "RelativeDocumentMoniker": "Model\\Product.cs",
+              "ToolTip": "C:\\Users\\aridl\\Downloads\\CIS4583\\CIS4583\\CIS4583\\Model\\Product.cs",
+              "RelativeToolTip": "Model\\Product.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-29T21:44:16.428Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Categories.cs",
+              "DocumentMoniker": "C:\\Users\\aridl\\Downloads\\CIS4583\\CIS4583\\CIS4583\\Model\\Categories.cs",
+              "RelativeDocumentMoniker": "Model\\Categories.cs",
+              "ToolTip": "C:\\Users\\aridl\\Downloads\\CIS4583\\CIS4583\\CIS4583\\Model\\Categories.cs",
+              "RelativeToolTip": "Model\\Categories.cs",
+              "ViewState": "AgIAACYAAAAAAAAAAAAgwDEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-29T21:44:12.648Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "CategoryController.cs",
+              "DocumentMoniker": "C:\\Users\\aridl\\OneDrive\\Desktop\\CIS4583\\UI\\Controllers\\CategoryController.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\OneDrive\\Desktop\\CIS4583\\UI\\Controllers\\CategoryController.cs",
+              "ToolTip": "C:\\Users\\aridl\\OneDrive\\Desktop\\CIS4583\\UI\\Controllers\\CategoryController.cs",
+              "RelativeToolTip": "..\\..\\..\\..\\OneDrive\\Desktop\\CIS4583\\UI\\Controllers\\CategoryController.cs",
+              "ViewState": "AgIAAJMAAAAAAAAAAAAgwKMAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-29T21:44:01.012Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\aridl\\OneDrive\\Desktop\\CIS4583\\UI\\Program.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\OneDrive\\Desktop\\CIS4583\\UI\\Program.cs",
+              "ToolTip": "C:\\Users\\aridl\\OneDrive\\Desktop\\CIS4583\\UI\\Program.cs",
+              "RelativeToolTip": "..\\..\\..\\..\\OneDrive\\Desktop\\CIS4583\\UI\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-29T21:40:28.895Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "ISupplierRepository.cs",
+              "DocumentMoniker": "C:\\Users\\aridl\\Downloads\\CIS4583\\CIS4583\\CIS4583\\IRepository\\ISupplierRepository.cs",
+              "RelativeDocumentMoniker": "IRepository\\ISupplierRepository.cs",
+              "ToolTip": "C:\\Users\\aridl\\Downloads\\CIS4583\\CIS4583\\CIS4583\\IRepository\\ISupplierRepository.cs",
+              "RelativeToolTip": "IRepository\\ISupplierRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-29T21:33:06.994Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ICustomerRepository.cs",
+              "DocumentMoniker": "C:\\Users\\aridl\\Downloads\\CIS4583\\CIS4583\\CIS4583\\IRepository\\ICustomerRepository.cs",
+              "RelativeDocumentMoniker": "IRepository\\ICustomerRepository.cs",
+              "ToolTip": "C:\\Users\\aridl\\Downloads\\CIS4583\\CIS4583\\CIS4583\\IRepository\\ICustomerRepository.cs",
+              "RelativeToolTip": "IRepository\\ICustomerRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-29T21:32:46.436Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "IProductRepository.cs",
+              "DocumentMoniker": "C:\\Users\\aridl\\Downloads\\CIS4583\\CIS4583\\CIS4583\\IRepository\\IProductRepository.cs",
+              "RelativeDocumentMoniker": "IRepository\\IProductRepository.cs",
+              "ToolTip": "C:\\Users\\aridl\\Downloads\\CIS4583\\CIS4583\\CIS4583\\IRepository\\IProductRepository.cs",
+              "RelativeToolTip": "IRepository\\IProductRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-29T21:32:20.612Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 42,
+              "Title": "ErrorViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\aridl\\OneDrive\\Desktop\\CIS4583\\UI\\Models\\ErrorViewModel.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\OneDrive\\Desktop\\CIS4583\\UI\\Models\\ErrorViewModel.cs",
+              "ToolTip": "C:\\Users\\aridl\\OneDrive\\Desktop\\CIS4583\\UI\\Models\\ErrorViewModel.cs",
+              "RelativeToolTip": "..\\..\\..\\..\\OneDrive\\Desktop\\CIS4583\\UI\\Models\\ErrorViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-29T21:31:19.147Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 43,
+              "Title": "Customer.cs",
+              "DocumentMoniker": "C:\\Users\\aridl\\OneDrive\\Desktop\\CIS4583\\UI\\Models\\Customer.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\OneDrive\\Desktop\\CIS4583\\UI\\Models\\Customer.cs",
+              "ToolTip": "C:\\Users\\aridl\\OneDrive\\Desktop\\CIS4583\\UI\\Models\\Customer.cs",
+              "RelativeToolTip": "..\\..\\..\\..\\OneDrive\\Desktop\\CIS4583\\UI\\Models\\Customer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-29T21:30:47.016Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 44,
+              "Title": "SupplController.cs",
+              "DocumentMoniker": "C:\\Users\\aridl\\OneDrive\\Desktop\\CIS4583\\UI\\Controllers\\SupplController.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\OneDrive\\Desktop\\CIS4583\\UI\\Controllers\\SupplController.cs",
+              "ToolTip": "C:\\Users\\aridl\\OneDrive\\Desktop\\CIS4583\\UI\\Controllers\\SupplController.cs",
+              "RelativeToolTip": "..\\..\\..\\..\\OneDrive\\Desktop\\CIS4583\\UI\\Controllers\\SupplController.cs",
+              "ViewState": "AgIAAC8AAAAAAAAAAAAqwEsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-24T22:10:59.569Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 45,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\aridl\\OneDrive\\Desktop\\CIS4583\\UI\\appsettings.json",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\OneDrive\\Desktop\\CIS4583\\UI\\appsettings.json",
+              "ToolTip": "C:\\Users\\aridl\\OneDrive\\Desktop\\CIS4583\\UI\\appsettings.json",
+              "RelativeToolTip": "..\\..\\..\\..\\OneDrive\\Desktop\\CIS4583\\UI\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAA2AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-04-24T22:06:40.988Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ICategoriesRepository.cs",
+              "DocumentMoniker": "C:\\Users\\aridl\\Downloads\\CIS4583\\CIS4583\\CIS4583\\IRepository\\ICategoriesRepository.cs",
+              "RelativeDocumentMoniker": "IRepository\\ICategoriesRepository.cs",
+              "ToolTip": "C:\\Users\\aridl\\Downloads\\CIS4583\\CIS4583\\CIS4583\\IRepository\\ICategoriesRepository.cs",
+              "RelativeToolTip": "IRepository\\ICategoriesRepository.cs",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAswA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-17T21:37:48.578Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

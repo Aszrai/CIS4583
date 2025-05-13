@@ -1,0 +1,45 @@
+﻿@model IEnumerable<CIS4583.Model.Customer>
+
+@{
+    ViewData["Title"] = "Customer List";
+}
+
+<h1>Customer List</h1>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>@Html.DisplayNameFor(model => model.FirstName)</th>
+            <th>@Html.DisplayNameFor(model => model.MiddleName)</th>
+            <th>@Html.DisplayNameFor(model => model.LastName)</th>
+            <th>@Html.DisplayNameFor(model => model.Street)</th>
+            <th>@Html.DisplayNameFor(model => model.City)</th>
+            <th>@Html.DisplayNameFor(model => model.State)</th>
+            <th>@Html.DisplayNameFor(model => model.Zip)</th>
+            <th>Actions</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var customer in Model)
+        {
+            <tr>
+                <td>@customer.FirstName</td>
+                <td>@customer.MiddleName</td>
+                <td>@customer.LastName</td>
+                <td>@customer.Street</td>
+                <td>@customer.City</td>
+                <td>@customer.State</td>
+                <td>@customer.Zip</td>
+                <td>
+                    <a asp-action="Edit" asp-route-id="@customer.CustomerId" class="btn btn-warning">Edit</a>
+                    <a asp-action="Delete" asp-route-id="@customer.CustomerId" class="btn btn-danger">Delete</a>
+                    <a asp-action="Details" asp-route-id="@customer.CustomerId" class="btn btn-info">View Details</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+<div>
+    <a asp-action="Create" class="btn btn-primary">Create New Customer</a>
+</div>

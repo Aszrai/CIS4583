@@ -1,0 +1,34 @@
+﻿@model CIS4583.Model.Customer
+
+<h1>Customer Details</h1>
+
+<div class="row">
+    <div class="col-md-6">
+        <div class="form-group">
+            <label><strong>First Name:</strong> @Model.FirstName</label>
+        </div>
+        <div class="form-group">
+            <label><strong>Middle Name:</strong> @Model.MiddleName</label>
+        </div>
+        <div class="form-group">
+            <label><strong>Last Name:</strong> @Model.LastName</label>
+        </div>
+        <div class="form-group">
+            <label><strong>Street:</strong> @Model.Street</label>
+        </div>
+        <div class="form-group">
+            <label><strong>City:</strong> @Model.City</label>
+        </div>
+        <div class="form-group">
+            <label><strong>State:</strong> @Model.State</label>
+        </div>
+        <div class="form-group">
+            <label><strong>Zip:</strong> @Model.Zip</label>
+        </div>
+
+        <div class="form-group">
+            <a asp-action="Edit" asp-route-id="@Model.CustomerId" class="btn btn-primary">Edit</a> |
+            <a asp-action="Index" class="btn btn-secondary">Back to List</a>
+        </div>
+    </div>
+</div>
